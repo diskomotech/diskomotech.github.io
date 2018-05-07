@@ -1,0 +1,5 @@
+/* Reduce font size for home page text because it's too long to accommodate 250px */
+
+h1 {
+    font-size: 200px;
+}
