@@ -1,2 +1,2 @@
-# portfolioV2
+# Public Portfolio
 2018 version of portfolio site
