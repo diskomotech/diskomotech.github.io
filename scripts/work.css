@@ -1,12 +1,7 @@
-.aboutText {
+.workText {
     margin: 1em 2em;
-    padding-left: 4em;
+    padding-left: 2em;
     padding-top: 1em;
     text-align: justify;
-    flex-grow: 2;
-}
-
-.aboutPhoto {
-    margin: 2em;
     align-self: center;
 }

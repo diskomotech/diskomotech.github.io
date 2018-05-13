@@ -65,7 +65,7 @@ a, i {
 
 .mainBody {
     display: flex;
-    min-height: calc(100vh - 65px);
+    min-height: 560px;
 }
 
 /* Main text layout */
@@ -87,6 +87,30 @@ h1 {
 
 /*  Uppercasing */
 
-a, i, h1 {
+a, i, h1, h2 {
     text-transform: uppercase;
+}
+
+.belowFold {
+    background-color: #AFEEED;
+    min-height: 625px;
+    display: flex;
+}
+
+h2 {
+    color: #4D3CD0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    margin: auto;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+	font-size: 1.1em;
+    color: #010101;
+    text-decoration: none; 
+    list-style-type: none;
+    font-weight: 300;
+    line-height: 1.4em;
 }
