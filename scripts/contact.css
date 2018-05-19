@@ -3,5 +3,24 @@
     padding-left: 2em;
     padding-top: 1em;
     text-align: justify;
+}
 
+/* Media Queries */
+
+@media (max-width: 1160px) {
+    h1 {
+        font-size: 150px;
+    }
+}
+
+@media (max-width: 745px) {
+    h1 {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 530px) {
+    h1 {
+        font-size: 85px;
+    }
 }

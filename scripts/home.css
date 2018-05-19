@@ -3,3 +3,29 @@
 h1 {
     font-size: 200px;
 }
+
+/* Media Queries */
+
+@media (max-width: 1185px) {
+    h1 {
+        font-size: 150px;
+    }
+}
+
+@media (max-width: 912px) {
+    h1 {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 85px;
+    }
+}
+
+@media (max-width: 510px) {
+    h1 {
+        font-size: 60px;
+    }
+}
