@@ -6,6 +6,10 @@
     align-self: center;
 }
 
+.work a {
+    border-bottom: 2px solid #AFEEED;
+    }
+
 /* Media Queries */
 
 @media (max-width: 875px) {

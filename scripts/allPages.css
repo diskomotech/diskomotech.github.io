@@ -50,6 +50,14 @@ body {
     margin-top: 30px; 
 }
 
+/* Mouse hover animation */
+
+.menu-left a:hover, .menu-right a:hover {
+     border-bottom: 2px solid #AFEEED;
+     transition: all 0.12s ease;
+     -webkit-transition: all 0.12s ease;
+}
+
 /* Nav bar text styles */
 
 a, i {

@@ -5,6 +5,10 @@
     text-align: justify;
 }
 
+.contact a {
+    border-bottom: 2px solid #AFEEED;
+    }
+
 /* Media Queries */
 
 @media (max-width: 1160px) {
