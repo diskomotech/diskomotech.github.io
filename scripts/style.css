@@ -10,6 +10,10 @@ html {
     font-size: 62.5%;
 }
 
+/* $color-primary: #f85959;
+$color-secondary: #7c203a;
+$color-tertiary: #feff89; */
+
 body {
     font-family: "Work Sans", sans-serif;
     line-height: 1.3;
