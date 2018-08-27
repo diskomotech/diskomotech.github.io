@@ -1,0 +1,12 @@
+- Write proper 'About Me' section
+- Work section with codepen examples (use empty boxes for the time being)
+- Contact page - Submit form. Get it looking nice
+- Make height responsive (http://javascript.info/size-and-scroll-window)
+- Sticky menu bar or hide when scroll down?
+- Media queries for width
+- Move down to right section when click on menu item
+- Move down one section when clicking on down arrow
+- Carousel animation for change from name to 'web developer' etc?
+- Remove unused fonts
+- Tidy up CSS so less repeating. Use Sass? Or CSS variables?
+- Applied accessibility   
