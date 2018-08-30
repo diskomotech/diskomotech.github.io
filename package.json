@@ -1,0 +1,22 @@
+{
+  "name": "diskomotech.github.io",
+  "version": "3.0.0",
+  "description": "Third iteration of portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diskomotech/diskomotech.github.io.git"
+  },
+  "author": "Jim Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diskomotech/diskomotech.github.io/issues"
+  },
+  "homepage": "https://github.com/diskomotech/diskomotech.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
