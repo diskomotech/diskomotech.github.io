@@ -4,7 +4,7 @@
   "description": "Third iteration of portfolio site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass:compile": "node-sass scripts/style.scss scripts/style.css -w"
   },
   "repository": {
     "type": "git",
