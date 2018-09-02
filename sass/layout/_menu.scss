@@ -1,0 +1,14 @@
+.menu-bar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &:hover {
+        border-bottom: .2rem solid $color-tertiary;
+        transition: all 0.07s ease-out;
+        -webkit-transition: all 0.07s ease-out;
+    }
+}  

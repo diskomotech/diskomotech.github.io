@@ -41,21 +41,19 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 85vh; }
-
-.home-page__text {
-  font-family: "Roboto", sans-serif;
-  font-size: 19rem;
-  text-transform: uppercase; }
+  .home-page__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 19rem;
+    text-transform: uppercase; }
 
 /* Down arrow styling */
 .down-arrow {
   display: flex; }
+  .down-arrow_home {
+    color: #7c203a; }
 
 .fa-caret-down {
   font-size: 3rem;
   margin: 0 auto;
   padding-bottom: .5rem;
   height: 5vh; }
-
-.down-arrow_home {
-  color: #7c203a; }

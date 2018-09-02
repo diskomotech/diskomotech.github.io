@@ -1,0 +1,14 @@
+.down-arrow {
+    display: flex;
+
+    &_home {
+        color: $color-secondary;
+    }
+}
+
+.fa-caret-down {
+    font-size: 3rem;
+    margin: 0 auto;
+    padding-bottom: .5rem;
+    height: 5vh;
+}
