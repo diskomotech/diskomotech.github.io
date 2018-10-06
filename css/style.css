@@ -40,12 +40,14 @@ body {
   height: 5vh; }
 
 .menu-bar {
-  height: 10vh;
+  height: 8vh;
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+  position: fixed;
+  background-color: #f85959; }
   .menu-bar a {
     padding: 0.5rem 0.2rem; }
     .menu-bar a:hover {
@@ -83,5 +85,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 85vh;
+  min-height: 95vh;
   max-width: 114rem; }
+
+.about-page {
+  height: 2000px; }
