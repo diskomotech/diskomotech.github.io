@@ -11,7 +11,7 @@ html {
 body {
   font-family: "Work Sans", sans-serif;
   line-height: 1.3;
-  padding: 0 3rem;
+  padding: 0;
   box-sizing: border-box;
   background-color: #f85959;
   color: #7c203a; }
@@ -30,13 +30,15 @@ body {
 
 .down-arrow {
   display: flex; }
-  .down-arrow_home {
+  .down-arrow_home .down-arrow_work {
     color: #7c203a; }
+  .down-arrow_about .down-arrow_contact {
+    color: #f85959;
+    background-color: #7c203a; }
 
 .fa-caret-down {
   font-size: 3rem;
-  margin: 0 auto;
-  padding-bottom: .5rem;
+  margin: 0 auto .5rem auto;
   height: 5vh; }
 
 .menu-bar {
@@ -89,4 +91,6 @@ body {
   max-width: 114rem; }
 
 .about-page {
-  height: 2000px; }
+  background-color: #7c203a;
+  color: #f85959;
+  height: 95vh; }
