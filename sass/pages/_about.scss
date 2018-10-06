@@ -2,4 +2,9 @@
     background-color: $color-secondary;
     color: $color-primary;
     height: 95vh;
+
+    &__photo {
+        // width: 25%;
+        border-radius: 2px;
+    }
 }

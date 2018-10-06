@@ -93,3 +93,5 @@ body {
   background-color: #7c203a;
   color: #f85959;
   height: 95vh; }
+  .about-page__photo {
+    border-radius: 2px; }
