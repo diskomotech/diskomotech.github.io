@@ -1,11 +1,11 @@
 .down-arrow {
     display: flex;
 
-    &_home &_work {
+    &_home, &_work {
         color: $color-secondary;
     }
 
-    &_about &_contact {
+    &_about, &_contact {
         color: $color-primary;
         background-color: $color-secondary;
     }

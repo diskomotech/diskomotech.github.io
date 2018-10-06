@@ -30,9 +30,9 @@ body {
 
 .down-arrow {
   display: flex; }
-  .down-arrow_home .down-arrow_work {
+  .down-arrow_home, .down-arrow_work {
     color: #7c203a; }
-  .down-arrow_about .down-arrow_contact {
+  .down-arrow_about, .down-arrow_contact {
     color: #f85959;
     background-color: #7c203a; }
 
