@@ -1,5 +1,4 @@
 - Write proper 'About Me' section
-- Centre 'Jim Wright' properly
 - Work section with codepen examples (use empty boxes for the time being)
 - Contact page - Submit form. Get it looking nice
 - Media queries for width

@@ -87,8 +87,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 95vh;
-  max-width: 114rem; }
+  min-height: 95vh; }
 
 .about-page {
   background-color: #7c203a;
