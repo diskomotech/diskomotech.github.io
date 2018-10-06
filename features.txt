@@ -6,4 +6,4 @@
 - Move down one section when clicking on down arrow
 - Carousel animation for change from name to 'web developer' etc?
 - Remove unused fonts
-- Applied accessibility   
+- Applied accessibility
