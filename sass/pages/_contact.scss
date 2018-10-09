@@ -10,6 +10,12 @@
         a {
             color: inherit;
             text-decoration: none;
+
+            &:hover {
+                border-bottom: .5rem solid $color-primary;
+                transition: all 0.07s ease-out;
+                -webkit-transition: all 0.07s ease-out;
+            }
         }
     }
 }

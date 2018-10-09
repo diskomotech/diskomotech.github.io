@@ -125,3 +125,7 @@ body {
     .contact-page__text a {
       color: inherit;
       text-decoration: none; }
+      .contact-page__text a:hover {
+        border-bottom: 0.5rem solid #f85959;
+        transition: all 0.07s ease-out;
+        -webkit-transition: all 0.07s ease-out; }
