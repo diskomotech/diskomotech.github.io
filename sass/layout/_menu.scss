@@ -8,10 +8,10 @@
     background-color: $color-primary;
     
     & a {
-        padding: 0.5rem 0.2rem;
+        padding: 1.5rem 0.2rem 0.3rem 0.2rem;
 
         &:hover {
-            border-bottom: .2rem solid $color-tertiary;
+            border-bottom: .2rem solid $color-secondary;
             transition: all 0.07s ease-out;
             -webkit-transition: all 0.07s ease-out;
         }

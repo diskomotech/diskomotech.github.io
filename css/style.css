@@ -23,11 +23,11 @@ body {
   text-transform: uppercase; }
 
 .menu-bar a {
-  font-size: 1.8rem;
-  color: #feff89;
+  font-size: 1.9rem;
+  color: #7c203a;
   text-decoration: none;
   list-style-type: none;
-  font-weight: 200; }
+  font-weight: 300; }
 
 .home-page__text {
   font-family: "Roboto", sans-serif;
@@ -63,9 +63,9 @@ body {
   align-items: center;
   background-color: #f85959; }
   .menu-bar a {
-    padding: 0.5rem 0.2rem; }
+    padding: 1.5rem 0.2rem 0.3rem 0.2rem; }
     .menu-bar a:hover {
-      border-bottom: 0.2rem solid #feff89;
+      border-bottom: 0.2rem solid #7c203a;
       transition: all 0.07s ease-out;
       -webkit-transition: all 0.07s ease-out; }
 
@@ -99,7 +99,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; }
+  height: 92vh; }
 
 .about-page {
   background-color: #7c203a;
