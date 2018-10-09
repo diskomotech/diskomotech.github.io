@@ -48,7 +48,6 @@ body {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
-  position: fixed;
   background-color: #f85959; }
   .menu-bar a {
     padding: 0.5rem 0.2rem; }
