@@ -91,7 +91,7 @@ body {
 .about-page {
   background-color: #7c203a;
   color: #f85959;
-  height: 93vh;
+  height: 100vh;
   font-size: 2rem;
   display: flex;
   align-items: center; }
@@ -100,9 +100,9 @@ body {
     border-radius: 2px; }
 
 .work-page {
-  height: 93vh; }
+  height: 100vh; }
 
 .contact-page {
   background-color: #7c203a;
   color: #f85959;
-  height: 93vh; }
+  height: 100vh; }
