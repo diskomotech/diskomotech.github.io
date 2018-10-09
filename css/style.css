@@ -87,12 +87,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 95vh; }
+  height: 100vh; }
 
 .about-page {
   background-color: #7c203a;
   color: #f85959;
-  height: 87vh;
+  height: 93vh;
   font-size: 2rem;
   display: flex;
   align-items: center; }
@@ -101,7 +101,7 @@ body {
     border-radius: 2px; }
 
 .work-page {
-  height: 87vh; }
+  height: 93vh; }
 
 .contact-page {
   background-color: #7c203a;
