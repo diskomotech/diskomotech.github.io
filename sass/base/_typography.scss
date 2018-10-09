@@ -8,8 +8,13 @@ body {
     text-align: justify;
 }
 
+.page-heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 9rem;
+    text-transform: uppercase;
+}
+
 .menu-bar {
-    
     a {
         font-size: 1.8rem;
         color: $color-tertiary;
@@ -19,8 +24,7 @@ body {
     }  
 }
 
-.home-page {
-    
+.home-page { 
     &__text {
         font-family: "Roboto", sans-serif;
         font-size: 19rem;
@@ -28,8 +32,10 @@ body {
     }
 }
 
-.page-heading {
-    font-family: "Roboto", sans-serif;
-    font-size: 9rem;
-    text-transform: uppercase;
+.contact-page {
+    &__text {
+        font-weight: 400;
+        font-size: 5rem;
+        text-align: left;
+    }
 }
