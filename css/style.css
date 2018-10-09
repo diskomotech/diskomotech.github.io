@@ -38,6 +38,8 @@ body {
   font-weight: 400;
   font-size: 5rem;
   text-align: left; }
+  .contact-page__text a {
+    font-weight: 700; }
 
 .down-arrow {
   display: flex; }
@@ -118,6 +120,8 @@ body {
   color: #f85959;
   height: 100vh;
   padding: 10rem 3rem; }
-  .contact-page__text a {
-    color: inherit;
-    text-decoration: none; }
+  .contact-page__text {
+    padding-top: 2rem; }
+    .contact-page__text a {
+      color: inherit;
+      text-decoration: none; }
