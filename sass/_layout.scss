@@ -1,3 +1,5 @@
+/////////////////////////////////////////////
+// HOME PAGE
 .home-page {
     display: flex;
     justify-content: center;
@@ -11,6 +13,8 @@
     }
 }
 
+/////////////////////////////////////////////
+// ABOUT PAGE
 .about-page {
     background-color: $color-secondary;
     color: $color-primary;
@@ -26,10 +30,14 @@
     }
 }
 
+/////////////////////////////////////////////
+// WORK PAGE
 .work-page {
     height: 100vh;
 }
 
+/////////////////////////////////////////////
+// CONTACT PAGE
 .contact-page {
     background-color: $color-secondary;
     color: $color-primary;

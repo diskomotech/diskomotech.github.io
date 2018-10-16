@@ -1,9 +1,0 @@
-- Write proper 'About Me' section
-- Work section with codepen examples (use empty boxes for the time being)
-- Contact page - Submit form. Get it looking nice
-- Media queries for width
-- Move down to right section when click on menu item
-- Move down one section when clicking on down arrow
-- Carousel animation for change from name to 'web developer' etc?
-- Remove unused fonts
-- Applied accessibility
