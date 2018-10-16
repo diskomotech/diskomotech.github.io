@@ -1,0 +1,57 @@
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+
+    &__text {
+        font-family: "Roboto", sans-serif;
+        font-size: 19rem;
+        text-transform: uppercase;
+    }
+}
+
+.about-page {
+    background-color: $color-secondary;
+    color: $color-primary;
+    height: 100vh;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+
+    &__photo {
+       width: 60%;
+       border-radius: 3px;
+    }
+}
+
+.work-page {
+    height: 100vh;
+}
+
+.contact-page {
+    background-color: $color-secondary;
+    color: $color-primary;
+    height: 100vh;
+    padding: 10rem 3rem;
+
+    &__text {
+        font-weight: 400;
+        font-size: 5rem;
+        text-align: left;
+        padding-top: 2rem;
+
+        a {
+            font-weight: 700;
+            color: inherit;
+            text-decoration: none;
+
+            &:hover {
+                border-bottom: .5rem solid $color-primary;
+                transition: all 0.07s ease-out;
+                -webkit-transition: all 0.07s ease-out;
+            }
+        }
+    }
+}

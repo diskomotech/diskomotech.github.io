@@ -6,8 +6,13 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: $color-primary;
-    
-    & a {
+
+    a {
+        font-size: 1.9rem;
+        color: $color-secondary;
+        text-decoration: none; 
+        list-style-type: none;
+        font-weight: 300;
         padding: 1.5rem 0.2rem 0.3rem 0.2rem;
 
         &:hover {
@@ -15,5 +20,5 @@
             transition: all 0.07s ease-out;
             -webkit-transition: all 0.07s ease-out;
         }
-    }
-}  
+    }  
+}

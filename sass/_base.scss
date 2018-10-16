@@ -22,3 +22,19 @@ html {
         font-size: 75%;   //1rem = 12px; 12/16 = 75%
     }
 }
+
+body {
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.2;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $color-primary;
+    color: $color-secondary;
+    text-align: justify;
+}
+
+.page-heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 9rem;
+    text-transform: uppercase;
+}

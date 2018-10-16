@@ -31,38 +31,6 @@ body {
   font-size: 9rem;
   text-transform: uppercase; }
 
-.menu-bar a {
-  font-size: 1.9rem;
-  color: #7c203a;
-  text-decoration: none;
-  list-style-type: none;
-  font-weight: 300; }
-
-.home-page__text {
-  font-family: "Roboto", sans-serif;
-  font-size: 19rem;
-  text-transform: uppercase; }
-
-.contact-page__text {
-  font-weight: 400;
-  font-size: 5rem;
-  text-align: left; }
-  .contact-page__text a {
-    font-weight: 700; }
-
-.down-arrow {
-  display: flex; }
-  .down-arrow_home, .down-arrow_work {
-    color: #7c203a; }
-  .down-arrow_about, .down-arrow_contact {
-    color: #f85959;
-    background-color: #7c203a; }
-
-.fa-caret-down {
-  font-size: 3rem;
-  margin: 0 auto .5rem auto;
-  height: 5vh; }
-
 .menu-bar {
   height: 8vh;
   width: 100%;
@@ -72,6 +40,11 @@ body {
   align-items: center;
   background-color: #f85959; }
   .menu-bar a {
+    font-size: 1.9rem;
+    color: #7c203a;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 300;
     padding: 1.5rem 0.2rem 0.3rem 0.2rem; }
     .menu-bar a:hover {
       border-bottom: 0.2rem solid #7c203a;
@@ -109,6 +82,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 92vh; }
+  .home-page__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 19rem;
+    text-transform: uppercase; }
 
 .about-page {
   background-color: #7c203a;
@@ -131,8 +108,12 @@ body {
   height: 100vh;
   padding: 10rem 3rem; }
   .contact-page__text {
+    font-weight: 400;
+    font-size: 5rem;
+    text-align: left;
     padding-top: 2rem; }
     .contact-page__text a {
+      font-weight: 700;
       color: inherit;
       text-decoration: none; }
       .contact-page__text a:hover {
