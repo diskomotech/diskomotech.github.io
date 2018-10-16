@@ -1,3 +1,11 @@
+// PAGE HEADINGS
+.page-heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 9rem;
+    text-transform: uppercase;
+    padding: 5rem 0 2rem 3rem;
+}
+
 /////////////////////////////////////////////
 // HOME PAGE
 .home-page {
@@ -20,13 +28,22 @@
     color: $color-primary;
     height: 100vh;
     font-size: 2rem;
-    display: flex;
-    align-items: center;
     font-weight: 300;
 
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__text {
+        width: 30%;
+        margin-right: 30rem;
+    }
+
     &__photo {
-       width: 60%;
-       border-radius: 3px;
+       width: 25%;
+       border-radius: 2px;
     }
 }
 
@@ -42,13 +59,12 @@
     background-color: $color-secondary;
     color: $color-primary;
     height: 100vh;
-    padding: 10rem 3rem;
 
     &__text {
         font-weight: 400;
         font-size: 5rem;
         text-align: left;
-        padding-top: 2rem;
+        padding: 2rem 0 0 3rem;
 
         a {
             font-weight: 700;
