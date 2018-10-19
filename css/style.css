@@ -7,10 +7,10 @@
 
 html {
   font-size: 62.5%; }
-  @media (max-width: 56.25em) {
+  @media (max-width: 53.125em) {
     html {
       font-size: 50%; } }
-  @media (max-width: 75em) {
+  @media (max-width: 68.75em) {
     html {
       font-size: 56.25%; } }
   @media (min-width: 112.5em) {
@@ -64,6 +64,15 @@ ul {
     font-family: "Roboto", sans-serif;
     font-size: 19rem;
     text-transform: uppercase; }
+    @media (max-width: 68.75em) {
+      .home-page__text {
+        font-size: 16rem; } }
+    @media (max-width: 53.125em) {
+      .home-page__text {
+        font-size: 11rem; } }
+    @media (max-width: 37.5em) {
+      .home-page__text {
+        font-size: 7rem; } }
 
 .about-page {
   background-color: #7c203a;

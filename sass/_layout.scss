@@ -18,6 +18,18 @@
         font-family: "Roboto", sans-serif;
         font-size: 19rem;
         text-transform: uppercase;
+
+        @include respond(tab-land) {
+            font-size: 16rem;
+        }
+
+        @include respond(tab-port) {
+            font-size: 11rem;
+        }
+
+        @include respond(phone) {
+            font-size: 7rem;
+        }
     }
 }
 
