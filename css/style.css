@@ -102,13 +102,17 @@ ul {
     display: flex;
     align-items: center; }
     .work-page__flex-grid .col {
+      display: flex;
       width: 33.33%;
       height: 21.7rem;
       border: 1px solid #f85959;
       background-color: #7c203a; }
-      .work-page__flex-grid .col a {
-        height: 100%;
-        position: absolute; }
+  .work-page__project-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: scale-down;
+    overflow: hidden; }
 
 .contact-page {
   background-color: #7c203a;

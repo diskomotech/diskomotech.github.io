@@ -83,17 +83,21 @@
         align-items: center;
 
         .col {
+            display: flex;
             width: 33.33%;
             height: 21.7rem;
             border: 1px solid $color-primary;
             background-color: $color-secondary;
-
-            & a {
-                height: 100%;
-                position: absolute;
-            }
         }
-    }   
+    }
+    
+    &__project-img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        object-fit: scale-down;
+        overflow: hidden;
+    }
 }
 
 /////////////////////////////////////////////
