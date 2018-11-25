@@ -101,7 +101,7 @@ ul {
   .work-page__flex-grid {
     display: flex;
     align-items: center; }
-    .work-page__flex-grid .col {
+    .work-page__flex-grid-col {
       display: flex;
       width: 33.33%;
       height: 21.7rem;
