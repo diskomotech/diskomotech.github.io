@@ -46,7 +46,7 @@ ul {
     font-weight: 300;
     padding: 1.5rem 0.2rem 0.3rem 0.2rem; }
     .menu-bar a:hover {
-      border-bottom: 0.2rem solid #7c203a;
+      text-decoration: underline;
       transition: all 0.07s ease-out;
       -webkit-transition: all 0.07s ease-out; }
 
