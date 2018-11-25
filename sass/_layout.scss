@@ -90,14 +90,45 @@
             background-color: $color-secondary;
         }
     }
-    
-    &__project-img {
-        max-width: 100%;
-        max-height: auto;
-        display: block;
-        object-fit: cover;
-        overflow: hidden;
-    }
+
+    &__project {
+        // display: flex;
+        position: relative;
+
+        &-img {
+            max-width: 100%;
+            max-height: auto;
+            display: block;
+            transform: scale(1.1);
+            object-fit: cover;
+            overflow: hidden;
+            transition: all .5s;
+            backface-visibility: hidden;
+        }
+
+        &-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            color: whitesmoke;
+            font-size: 1.7rem;
+            text-align: justify;
+            opacity: 0;
+            transition: all .5s;
+            backface-visibility: hidden;
+        }
+
+        &:hover &-caption {
+            opacity: 1;
+            transform: translate(-50%, -50%);
+        }
+
+        &:hover &-img {
+            transform: scale(1);
+            filter: blur(4px) brightness(80%);
+        }
+    } 
 }
 
 /////////////////////////////////////////////
