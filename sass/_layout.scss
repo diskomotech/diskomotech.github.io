@@ -59,7 +59,7 @@
     height: 100vh;
 
     @include respond(tab-land) {
-        height: 60vh;
+        height: 70vh;
     }
 
     @include respond(tab-port) {
@@ -107,6 +107,33 @@
 .work-page {
     height: 100vh;
 
+    @include respond(tab-land) {
+        height: 70vh;
+    }
+
+    @include respond(tab-port) {
+        height: 55vh;
+    }
+
+    @include respond(phone) {
+        height: 75vh;
+    }
+
+    & h2 {
+        @include respond(tab-land) {
+            height: 20vh;
+        }
+        
+        @include respond(tab-port) {
+            height: 15vh;
+        }
+
+        @include respond(phone) {
+            height: 18vh;
+            overflow: hidden;
+        }
+    }
+
     &__flex-grid {
         display: flex;
         align-items: center;
@@ -115,7 +142,6 @@
             display: flex;
             width: 33.33%;
             border: 1px solid $color-primary;
-            height: 35vh;
             overflow: hidden;
         }
     }
