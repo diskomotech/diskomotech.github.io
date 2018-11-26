@@ -68,10 +68,10 @@ ul {
   height: 92vh; }
   @media (max-width: 68.75em) {
     .home-page {
-      height: 80vh; } }
+      height: 55vh; } }
   @media (max-width: 53.125em) {
     .home-page {
-      height: 70vh; } }
+      height: 50vh; } }
   @media (max-width: 37.5em) {
     .home-page {
       height: 60vh; } }
@@ -93,6 +93,18 @@ ul {
   background-color: #7c203a;
   color: #f85959;
   height: 100vh; }
+  @media (max-width: 68.75em) {
+    .about-page {
+      height: 60vh; } }
+  @media (max-width: 53.125em) {
+    .about-page {
+      height: 55vh; } }
+  @media (max-width: 37.5em) {
+    .about-page {
+      height: 100vh; } }
+  @media (max-width: 68.75em) {
+    .about-page h2 {
+      height: 20vh; } }
   .about-page__content {
     display: flex;
     justify-content: center;

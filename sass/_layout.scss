@@ -21,11 +21,11 @@
     height: 92vh;
 
     @include respond(tab-land) {
-        height: 80vh;
+        height: 55vh;
     }
 
     @include respond(tab-port) {
-        height: 70vh;
+        height: 50vh;
     }
 
     @include respond(phone) {
@@ -58,17 +58,23 @@
     color: $color-primary;
     height: 100vh;
 
-    // @include respond(tab-land) {
-    //     height: 80vh;
-    // }
+    @include respond(tab-land) {
+        height: 60vh;
+    }
 
-    // @include respond(tab-port) {
-    //     height: 70vh;
-    // }
+    @include respond(tab-port) {
+        height: 55vh;
+    }
 
-    // @include respond(phone) {
-    //     height: 60vh;
-    // }
+    @include respond(phone) {
+        height: 100vh;
+    }
+
+    & h2 {
+        @include respond(tab-land) {
+            height: 20vh;
+        }
+    }
 
     &__content {
         display: flex;
