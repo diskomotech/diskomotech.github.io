@@ -5,9 +5,17 @@
     text-transform: uppercase;
     padding: 4rem 0 2rem 3rem;
     height: 30vh;
+    overflow: hidden;
+
+    @include respond(tab-land) {
+        height: 25vh;
+    }
+
+    @include respond(tab-port) {
+        height: 20vh;
+    }
 
     @include respond(phone) {
-        height: 20vh;
         font-size: 8rem;
     }
 }
@@ -20,29 +28,13 @@
     align-items: center;
     height: 92vh;
 
-    @include respond(tab-land) {
-        height: 55vh;
-    }
-
-    @include respond(tab-port) {
-        height: 50vh;
-    }
-
-    @include respond(phone) {
-        height: 85vh;
-    }
-
     &__text {
         font-family: "Roboto", sans-serif;
         font-size: 19rem;
         text-transform: uppercase;
 
-        @include respond(tab-land) {
-            font-size: 16rem;
-        }
-
         @include respond(tab-port) {
-            font-size: 11rem;
+            font-size: 14rem;
         }
 
         @include respond(phone) {
@@ -58,24 +50,6 @@
     color: $color-primary;
     height: 100vh;
 
-    @include respond(tab-land) {
-        height: 70vh;
-    }
-
-    @include respond(tab-port) {
-        height: 55vh;
-    }
-
-    @include respond(phone) {
-        height: 100vh;
-    }
-
-    & h2 {
-        @include respond(tab-land) {
-            height: 20vh;
-        }
-    }
-
     &__content {
         display: flex;
         justify-content: center;
@@ -89,11 +63,13 @@
         padding: 5rem 4rem;
 
         @include respond(tab-land) {
-            padding: 3rem 4rem;
+            padding: 0 4rem;
+            font-size: 4.7rem;
         }
 
         @include respond(tab-port) {
-            padding: 1rem 4rem;
+            padding-top: 2.5rem;
+            font-size: 5rem;
         }
 
         @include respond(phone) {
@@ -108,30 +84,15 @@
     height: 100vh;
 
     @include respond(tab-land) {
-        height: 70vh;
+        height: 82vh;
     }
 
     @include respond(tab-port) {
-        height: 55vh;
+        height: 70vh;
     }
 
     @include respond(phone) {
         height: 85vh;
-    }
-
-    & h2 {
-        @include respond(tab-land) {
-            height: 20vh;
-        }
-        
-        @include respond(tab-port) {
-            height: 15vh;
-        }
-
-        @include respond(phone) {
-            height: 19vh;
-            overflow: hidden;
-        }
     }
 
     &__flex-grid {
@@ -195,22 +156,12 @@
     color: $color-primary;
     height: 100vh;
 
-    @include respond(phone) {
+    @include respond(tab-land) {
         height: 65vh;
     }
 
-    & h2 {
-        @include respond(tab-land) {
-            height: 20vh;
-        }
-        
-        @include respond(tab-port) {
-            height: 15vh;
-        }
-
-        @include respond(phone) {
-            height: 20vh;
-        }
+    @include respond(tab-port) {
+        height: 65vh;
     }
 
     &__text {
@@ -218,6 +169,10 @@
         font-size: 5rem;
         text-align: left;
         padding: 5rem 4rem;
+
+        @include respond(tab-land) {
+            font-size: 6rem;
+        }
 
         @include respond(phone) {
             font-size: 3.5rem;
