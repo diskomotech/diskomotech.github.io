@@ -19,6 +19,18 @@
     align-items: center;
     height: 92vh;
 
+    @include respond(tab-land) {
+        height: 80vh;
+    }
+
+    @include respond(tab-port) {
+        height: 70vh;
+    }
+
+    @include respond(phone) {
+        height: 60vh;
+    }
+
     &__text {
         font-family: "Roboto", sans-serif;
         font-size: 19rem;

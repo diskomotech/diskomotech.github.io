@@ -65,6 +65,15 @@ ul {
   justify-content: center;
   align-items: center;
   height: 92vh; }
+  @media (max-width: 68.75em) {
+    .home-page {
+      height: 80vh; } }
+  @media (max-width: 53.125em) {
+    .home-page {
+      height: 70vh; } }
+  @media (max-width: 37.5em) {
+    .home-page {
+      height: 60vh; } }
   .home-page__text {
     font-family: "Roboto", sans-serif;
     font-size: 19rem;
