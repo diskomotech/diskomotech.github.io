@@ -189,6 +189,9 @@ ul {
   background-color: #7c203a;
   color: #f85959;
   height: 100vh; }
+  @media (max-width: 37.5em) {
+    .contact-page {
+      height: 60vh; } }
   @media (max-width: 68.75em) {
     .contact-page h2 {
       height: 20vh; } }

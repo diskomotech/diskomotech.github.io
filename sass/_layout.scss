@@ -195,6 +195,10 @@
     color: $color-primary;
     height: 100vh;
 
+    @include respond(phone) {
+        height: 60vh;
+    }
+
     & h2 {
         @include respond(tab-land) {
             height: 20vh;
