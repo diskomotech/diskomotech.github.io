@@ -49,22 +49,10 @@
     }
 
     &__text {
-        width: 30%;
-        margin-right: 30rem;
-
-        @include respond(tab-land) {
-            width: 40%;
-            margin-right: 20rem;
-
-        }
-
-        // @include respond(tab-port) {
-        //     font-size: 18rem;
-        // }
-
-        // @include respond(phone) {
-        //     font-size: 12rem;
-        // }
+        font-weight: 400;
+        font-size: 3rem;
+        text-align: justify;
+        padding: 6rem 4rem;
     }
 
     &__photo {
