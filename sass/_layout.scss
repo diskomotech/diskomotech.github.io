@@ -55,7 +55,16 @@
         @include respond(tab-land) {
             width: 40%;
             margin-right: 20rem;
+
         }
+
+        // @include respond(tab-port) {
+        //     font-size: 18rem;
+        // }
+
+        // @include respond(phone) {
+        //     font-size: 12rem;
+        // }
     }
 
     &__photo {
@@ -79,6 +88,11 @@
             height: 21.7rem;
             border: 1px solid $color-primary;
         }
+    }
+
+    &__container {
+        overflow: hidden;
+    }
 
     &__project {
         display: flex;
