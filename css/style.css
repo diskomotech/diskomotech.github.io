@@ -105,9 +105,11 @@ ul {
       display: flex;
       width: 33.33%;
       height: 21.7rem;
-      border: 1px solid #f85959;
-      background-color: #7c203a; }
+      border: 1px solid #f85959; }
+  .work-page__container {
+    overflow: hidden; }
   .work-page__project {
+    display: flex;
     position: relative; }
     .work-page__project-img {
       max-width: 100%;
@@ -115,7 +117,9 @@ ul {
       display: block;
       transform: scale(1.1);
       object-fit: cover;
-      overflow: hidden;
+      box-sizing: border-box;
+      margin: 0;
+      overflow-y: hidden;
       transition: all .5s;
       backface-visibility: hidden; }
     .work-page__project-caption {
