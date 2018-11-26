@@ -54,7 +54,8 @@ ul {
   font-family: "Roboto", sans-serif;
   font-size: 9rem;
   text-transform: uppercase;
-  padding: 5rem 0 2rem 3rem; }
+  padding: 4rem 0 2rem 3rem;
+  height: 30vh; }
   @media (max-width: 37.5em) {
     .page-heading {
       font-size: 8rem; } }
@@ -103,8 +104,9 @@ ul {
     .work-page__flex-grid-col {
       display: flex;
       width: 33.33%;
-      height: 21.7rem;
-      border: 1px solid #f85959; }
+      border: 1px solid #f85959;
+      height: 35vh;
+      overflow: hidden; }
   .work-page__container {
     overflow: hidden; }
   .work-page__project {
@@ -118,7 +120,7 @@ ul {
       object-fit: cover;
       box-sizing: border-box;
       margin: 0;
-      overflow-y: hidden;
+      overflow: hidden;
       transition: all .5s;
       backface-visibility: hidden; }
     .work-page__project-caption {
