@@ -189,6 +189,15 @@ ul {
   background-color: #7c203a;
   color: #f85959;
   height: 100vh; }
+  @media (max-width: 68.75em) {
+    .contact-page h2 {
+      height: 20vh; } }
+  @media (max-width: 53.125em) {
+    .contact-page h2 {
+      height: 15vh; } }
+  @media (max-width: 37.5em) {
+    .contact-page h2 {
+      height: 20vh; } }
   .contact-page__text {
     font-weight: 400;
     font-size: 5rem;

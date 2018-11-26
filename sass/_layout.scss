@@ -195,6 +195,20 @@
     color: $color-primary;
     height: 100vh;
 
+    & h2 {
+        @include respond(tab-land) {
+            height: 20vh;
+        }
+        
+        @include respond(tab-port) {
+            height: 15vh;
+        }
+
+        @include respond(phone) {
+            height: 20vh;
+        }
+    }
+
     &__text {
         font-weight: 400;
         font-size: 5rem;
