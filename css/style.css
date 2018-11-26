@@ -58,6 +58,7 @@ ul {
   height: 30vh; }
   @media (max-width: 37.5em) {
     .page-heading {
+      height: 20vh;
       font-size: 8rem; } }
 
 .home-page {
@@ -101,6 +102,12 @@ ul {
     font-size: 3rem;
     text-align: justify;
     padding: 5rem 4rem; }
+    @media (max-width: 68.75em) {
+      .about-page__text {
+        padding: 3rem 4rem; } }
+    @media (max-width: 53.125em) {
+      .about-page__text {
+        padding: 1rem 4rem; } }
     @media (max-width: 37.5em) {
       .about-page__text {
         font-size: 2.8rem; } }
