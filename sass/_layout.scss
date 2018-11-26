@@ -4,6 +4,10 @@
     font-size: 9rem;
     text-transform: uppercase;
     padding: 5rem 0 2rem 3rem;
+
+    @include respond(phone) {
+        font-size: 8rem;
+    }
 }
 
 /////////////////////////////////////////////
@@ -133,6 +137,11 @@
         font-size: 5rem;
         text-align: left;
         padding: 5rem 4rem;
+
+        @include respond(phone) {
+            font-size: 3.5rem;
+            text-align: justify;
+        }
     }
 
     &__link {

@@ -55,6 +55,9 @@ ul {
   font-size: 9rem;
   text-transform: uppercase;
   padding: 5rem 0 2rem 3rem; }
+  @media (max-width: 37.5em) {
+    .page-heading {
+      font-size: 8rem; } }
 
 .home-page {
   display: flex;
@@ -145,6 +148,10 @@ ul {
     font-size: 5rem;
     text-align: left;
     padding: 5rem 4rem; }
+    @media (max-width: 37.5em) {
+      .contact-page__text {
+        font-size: 3.5rem;
+        text-align: justify; } }
   .contact-page__link {
     font-weight: 700;
     color: inherit;
