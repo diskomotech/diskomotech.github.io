@@ -74,7 +74,7 @@ ul {
       height: 50vh; } }
   @media (max-width: 37.5em) {
     .home-page {
-      height: 70vh; } }
+      height: 85vh; } }
   .home-page__text {
     font-family: "Roboto", sans-serif;
     font-size: 19rem;
@@ -134,7 +134,7 @@ ul {
       height: 55vh; } }
   @media (max-width: 37.5em) {
     .work-page {
-      height: 83vh; } }
+      height: 85vh; } }
   @media (max-width: 68.75em) {
     .work-page h2 {
       height: 20vh; } }
@@ -191,7 +191,7 @@ ul {
   height: 100vh; }
   @media (max-width: 37.5em) {
     .contact-page {
-      height: 70vh; } }
+      height: 65vh; } }
   @media (max-width: 68.75em) {
     .contact-page h2 {
       height: 20vh; } }
