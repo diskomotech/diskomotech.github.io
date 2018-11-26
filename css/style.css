@@ -74,7 +74,7 @@ ul {
       height: 50vh; } }
   @media (max-width: 37.5em) {
     .home-page {
-      height: 60vh; } }
+      height: 70vh; } }
   .home-page__text {
     font-family: "Roboto", sans-serif;
     font-size: 19rem;
@@ -191,7 +191,7 @@ ul {
   height: 100vh; }
   @media (max-width: 37.5em) {
     .contact-page {
-      height: 60vh; } }
+      height: 70vh; } }
   @media (max-width: 68.75em) {
     .contact-page h2 {
       height: 20vh; } }
