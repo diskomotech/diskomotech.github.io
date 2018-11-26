@@ -39,8 +39,6 @@
     background-color: $color-secondary;
     color: $color-primary;
     height: 100vh;
-    font-size: 2rem;
-    font-weight: 300;
 
     &__content {
         display: flex;
@@ -53,11 +51,6 @@
         font-size: 3rem;
         text-align: justify;
         padding: 6rem 4rem;
-    }
-
-    &__photo {
-       width: 25%;
-       border-radius: 2px;
     }
 }
 

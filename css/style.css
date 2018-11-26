@@ -78,9 +78,7 @@ ul {
 .about-page {
   background-color: #7c203a;
   color: #f85959;
-  height: 100vh;
-  font-size: 2rem;
-  font-weight: 300; }
+  height: 100vh; }
   .about-page__content {
     display: flex;
     justify-content: center;
@@ -90,9 +88,6 @@ ul {
     font-size: 3rem;
     text-align: justify;
     padding: 6rem 4rem; }
-  .about-page__photo {
-    width: 25%;
-    border-radius: 2px; }
 
 .work-page {
   height: 100vh; }
