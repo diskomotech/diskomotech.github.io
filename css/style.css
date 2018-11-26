@@ -107,8 +107,6 @@ ul {
       border: 1px solid #f85959;
       height: 35vh;
       overflow: hidden; }
-  .work-page__container {
-    overflow: hidden; }
   .work-page__project {
     display: flex;
     position: relative; }
