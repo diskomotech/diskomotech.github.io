@@ -116,7 +116,7 @@
     }
 
     @include respond(phone) {
-        height: 75vh;
+        height: 83vh;
     }
 
     & h2 {
@@ -129,7 +129,7 @@
         }
 
         @include respond(phone) {
-            height: 18vh;
+            height: 19vh;
             overflow: hidden;
         }
     }

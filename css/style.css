@@ -134,7 +134,7 @@ ul {
       height: 55vh; } }
   @media (max-width: 37.5em) {
     .work-page {
-      height: 75vh; } }
+      height: 83vh; } }
   @media (max-width: 68.75em) {
     .work-page h2 {
       height: 20vh; } }
@@ -143,7 +143,7 @@ ul {
       height: 15vh; } }
   @media (max-width: 37.5em) {
     .work-page h2 {
-      height: 18vh;
+      height: 19vh;
       overflow: hidden; } }
   .work-page__flex-grid {
     display: flex;
