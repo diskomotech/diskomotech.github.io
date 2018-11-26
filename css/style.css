@@ -88,6 +88,9 @@ ul {
     font-size: 3rem;
     text-align: justify;
     padding: 5rem 4rem; }
+    @media (max-width: 37.5em) {
+      .about-page__text {
+        font-size: 2.8rem; } }
 
 .work-page {
   height: 100vh; }
