@@ -115,24 +115,26 @@ ul {
         font-size: 2.8rem; } }
 
 .work-page {
-  height: 100vh; }
+  height: 103vh; }
   @media (max-width: 68.75em) {
     .work-page {
       height: 82vh; } }
   @media (max-width: 53.125em) {
     .work-page {
-      height: 70vh; } }
+      height: 64vh; } }
   @media (max-width: 37.5em) {
     .work-page {
-      height: 85vh; } }
-  .work-page__flex-grid {
-    display: flex;
-    align-items: center; }
-    .work-page__flex-grid-col {
-      display: flex;
-      width: 33.33%;
-      border: 1px solid #f85959;
-      overflow: hidden; }
+      height: 112vh; } }
+  .work-page__grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(120px, 1fr));
+    grid-gap: 1rem;
+    margin: 0 1rem 0.5rem 1rem; }
+    @media (max-width: 37.5em) {
+      .work-page__grid-container {
+        grid-template-columns: repeat(2, minmax(120px, 1fr)); } }
+  .work-page__grid-item {
+    overflow: hidden; }
   .work-page__project {
     display: flex;
     position: relative; }
@@ -145,8 +147,11 @@ ul {
       box-sizing: border-box;
       margin: 0;
       overflow: hidden;
-      transition: all .5s;
+      transition: all 0.5s;
       backface-visibility: hidden; }
+      @media (max-width: 37.5em) {
+        .work-page__project-img {
+          transform: scale(1.2); } }
     .work-page__project-caption {
       position: absolute;
       top: 50%;
@@ -156,7 +161,7 @@ ul {
       font-size: 1.7rem;
       text-align: justify;
       opacity: 0;
-      transition: all .5s;
+      transition: all 0.5s;
       backface-visibility: hidden; }
     .work-page__project:hover .work-page__project-caption {
       opacity: 1;
@@ -171,10 +176,10 @@ ul {
   height: 100vh; }
   @media (max-width: 68.75em) {
     .contact-page {
-      height: 65vh; } }
+      height: 66vh; } }
   @media (max-width: 53.125em) {
     .contact-page {
-      height: 65vh; } }
+      height: 60vh; } }
   .contact-page__text {
     font-weight: 400;
     font-size: 6rem;
