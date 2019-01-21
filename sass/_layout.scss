@@ -1,194 +1,203 @@
 // PAGE HEADINGS
 .page-heading {
-    font-family: "Roboto", sans-serif;
-    font-size: 9rem;
-    text-transform: uppercase;
-    padding: 4rem 0 2rem 3rem;
-    height: 30vh;
-    overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 9rem;
+  text-transform: uppercase;
+  padding: 4rem 0 2rem 3rem;
+  height: 30vh;
+  overflow: hidden;
 
-    @include respond(tab-land) {
-        height: 25vh;
-    }
+  @include respond(tab-land) {
+    height: 25vh;
+  }
 
-    @include respond(tab-port) {
-        height: 20vh;
-    }
+  @include respond(tab-port) {
+    height: 20vh;
+  }
 
-    @include respond(phone) {
-        font-size: 8rem;
-    }
+  @include respond(phone) {
+    font-size: 8rem;
+  }
 }
 
 /////////////////////////////////////////////
 // HOME PAGE
 .home-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92vh;
 
-    &__text {
-        font-family: "Roboto", sans-serif;
-        font-size: 19rem;
-        text-transform: uppercase;
+  &__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 19rem;
+    text-transform: uppercase;
 
-        @include respond(tab-port) {
-            font-size: 14rem;
-        }
-
-        @include respond(phone) {
-            font-size: 7rem;
-        }
+    @include respond(tab-port) {
+      font-size: 14rem;
     }
+
+    @include respond(phone) {
+      font-size: 7rem;
+    }
+  }
 }
 
 /////////////////////////////////////////////
 // ABOUT PAGE
 .about-page {
-    background-color: $color-secondary;
-    color: $color-primary;
-    height: 100vh;
+  background-color: $color-secondary;
+  color: $color-primary;
+  height: 100vh;
 
-    &__content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 3.3rem;
+    text-align: justify;
+    padding: 5rem 4rem;
+
+    @include respond(tab-land) {
+      padding: 0 4rem;
+      font-size: 4.7rem;
     }
 
-    &__text {
-        font-weight: 400;
-        font-size: 3.3rem;
-        text-align: justify;
-        padding: 5rem 4rem;
-
-        @include respond(tab-land) {
-            padding: 0 4rem;
-            font-size: 4.7rem;
-        }
-
-        @include respond(tab-port) {
-            padding-top: 2.5rem;
-            font-size: 5rem;
-        }
-
-        @include respond(phone) {
-            font-size: 2.8rem;
-        }
+    @include respond(tab-port) {
+      padding-top: 2.5rem;
+      font-size: 5rem;
     }
+
+    @include respond(phone) {
+      font-size: 2.8rem;
+    }
+  }
 }
 
 /////////////////////////////////////////////
 // WORK PAGE
 .work-page {
-    height: 100vh;
+  height: 103vh;
 
-    @include respond(tab-land) {
-        height: 82vh;
+  @include respond(tab-land) {
+    height: 82vh;
+  }
+
+  @include respond(tab-port) {
+    height: 64vh;
+  }
+
+  @include respond(phone) {
+    height: 112vh;
+  }
+
+  &__grid {
+    &-container {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(120px, 1fr));
+      grid-gap: 1rem;
+      margin: 0 1rem 0.5rem 1rem;
+
+      @include respond(phone) {
+        grid-template-columns: repeat(2, minmax(120px, 1fr));
+      }
     }
 
-    @include respond(tab-port) {
-        height: 70vh;
+    &-item {
+      overflow: hidden;
+    }
+  }
+
+  &__project {
+    display: flex;
+    position: relative;
+
+    &-img {
+      max-width: 100%;
+      max-height: auto;
+      display: block;
+      transform: scale(1.1);
+      object-fit: cover;
+      box-sizing: border-box;
+      margin: 0;
+      overflow: hidden;
+      transition: all 0.5s;
+      backface-visibility: hidden;
+
+      @include respond(phone) {
+        transform: scale(1.2);
+      }
     }
 
-    @include respond(phone) {
-        height: 85vh;
+    &-caption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      color: whitesmoke;
+      font-size: 1.7rem;
+      text-align: justify;
+      opacity: 0;
+      transition: all 0.5s;
+      backface-visibility: hidden;
     }
 
-    &__flex-grid {
-        display: flex;
-        align-items: center;
-
-        &-col {
-            display: flex;
-            width: 33.33%;
-            border: 1px solid $color-primary;
-            overflow: hidden;
-        }
+    &:hover &-caption {
+      opacity: 1;
+      transform: translate(-50%, -50%);
     }
 
-    &__project {
-        display: flex;
-        position: relative;
-
-        &-img {
-            max-width: 100%;
-            max-height: auto;
-            display: block;
-            transform: scale(1.1);
-            object-fit: cover;
-            box-sizing: border-box;
-            margin: 0;
-            overflow: hidden;
-            transition: all .5s;
-            backface-visibility: hidden;
-        }
-
-        &-caption {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, 50%);
-            color: whitesmoke;
-            font-size: 1.7rem;
-            text-align: justify;
-            opacity: 0;
-            transition: all .5s;
-            backface-visibility: hidden;
-        }
-
-        &:hover &-caption {
-            opacity: 1;
-            transform: translate(-50%, -50%);
-        }
-
-        &:hover &-img {
-            transform: scale(1);
-            filter: blur(4px) brightness(80%);
-        }
-    } 
+    &:hover &-img {
+      transform: scale(1);
+      filter: blur(4px) brightness(80%);
+    }
+  }
 }
 
 /////////////////////////////////////////////
 // CONTACT PAGE
 .contact-page {
-    background-color: $color-secondary;
-    color: $color-primary;
-    height: 100vh;
+  background-color: $color-secondary;
+  color: $color-primary;
+  height: 100vh;
+
+  @include respond(tab-land) {
+    height: 66vh;
+  }
+
+  @include respond(tab-port) {
+    height: 60vh;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 6rem;
+    text-align: left;
+    padding: 5rem 4rem;
 
     @include respond(tab-land) {
-        height: 65vh;
+      font-size: 6rem;
     }
 
-    @include respond(tab-port) {
-        height: 65vh;
+    @include respond(phone) {
+      font-size: 3.5rem;
+      text-align: justify;
     }
+  }
 
-    &__text {
-        font-weight: 400;
-        font-size: 6rem;
-        text-align: left;
-        padding: 5rem 4rem;
+  &__link {
+    font-weight: 700;
+    color: inherit;
+    text-decoration: none;
 
-        @include respond(tab-land) {
-            font-size: 6rem;
-        }
-
-        @include respond(phone) {
-            font-size: 3.5rem;
-            text-align: justify;
-        }
+    &:hover {
+      border-bottom: 0.5rem solid $color-primary;
+      transition: all 0.07s ease-out;
+      -webkit-transition: all 0.07s ease-out;
     }
-
-    &__link {
-        font-weight: 700;
-        color: inherit;
-        text-decoration: none;
-
-        &:hover {
-            border-bottom: .5rem solid $color-primary;
-            transition: all 0.07s ease-out;
-            -webkit-transition: all 0.07s ease-out;
-        }
-    }
+  }
 }
