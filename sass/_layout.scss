@@ -3,7 +3,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 9rem;
   text-transform: uppercase;
-  padding: 4rem 0 2rem 3rem;
+  padding: 4rem 0 2rem 2rem;
   height: 30vh;
   overflow: hidden;
 
@@ -48,19 +48,19 @@
 .about-page {
   background-color: $color-secondary;
   color: $color-primary;
-  height: 100vh;
 
   &__content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  &__text {
+  & p {
     font-weight: 400;
-    font-size: 3.3rem;
+    font-size: 3rem;
     text-align: justify;
-    padding: 5rem 4rem;
+    padding: 0 3rem 2rem 3rem;
 
     @include respond(tab-land) {
       padding: 0 4rem;
@@ -199,7 +199,7 @@
     font-weight: 400;
     font-size: 6rem;
     text-align: left;
-    padding: 5rem 4rem;
+    padding: 5rem 2rem;
 
     @include respond(tab-land) {
       font-size: 6rem;

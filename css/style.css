@@ -60,7 +60,7 @@ ul {
   font-family: "Roboto", sans-serif;
   font-size: 9rem;
   text-transform: uppercase;
-  padding: 4rem 0 2rem 3rem;
+  padding: 4rem 0 2rem 2rem;
   height: 30vh;
   overflow: hidden; }
   @media (max-width: 68.75em) {
@@ -91,27 +91,27 @@ ul {
 
 .about-page {
   background-color: #7c203a;
-  color: #f85959;
-  height: 100vh; }
+  color: #f85959; }
   .about-page__content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
-  .about-page__text {
+  .about-page p {
     font-weight: 400;
-    font-size: 3.3rem;
+    font-size: 3rem;
     text-align: justify;
-    padding: 5rem 4rem; }
+    padding: 0 3rem 2rem 3rem; }
     @media (max-width: 68.75em) {
-      .about-page__text {
+      .about-page p {
         padding: 0 4rem;
         font-size: 4.7rem; } }
     @media (max-width: 53.125em) {
-      .about-page__text {
+      .about-page p {
         padding-top: 2.5rem;
         font-size: 5rem; } }
     @media (max-width: 37.5em) {
-      .about-page__text {
+      .about-page p {
         font-size: 2.6rem; } }
 
 .work-page {
@@ -202,7 +202,7 @@ ul {
     font-weight: 400;
     font-size: 6rem;
     text-align: left;
-    padding: 5rem 4rem; }
+    padding: 5rem 2rem; }
     @media (max-width: 68.75em) {
       .contact-page__text {
         font-size: 6rem; } }
