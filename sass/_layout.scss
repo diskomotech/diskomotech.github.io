@@ -63,7 +63,6 @@
     padding: 0 3rem 2rem 3rem;
 
     @include respond(tab-land) {
-      padding: 0 4rem;
       font-size: 4.7rem;
     }
 
@@ -73,7 +72,7 @@
     }
 
     @include respond(phone) {
-      font-size: 2.6rem;
+      font-size: 2.3rem;
     }
   }
 }
@@ -92,7 +91,7 @@
   }
 
   @include respond(phone) {
-    height: 112vh;
+    height: 120vh;
   }
 
   &__grid {
