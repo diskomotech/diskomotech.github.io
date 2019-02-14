@@ -1,5 +1,5 @@
 const homeTextDisplay = document.querySelector('.home-page__text');
-const homeText = ['Front End', 'Developer', 'Jim Wright'];
+const homeText = ['Front-End', 'Developer', 'JavaScript', 'React', 'Jim Wright'];
 let counter = 0;
 
 function homeTextChange() {
