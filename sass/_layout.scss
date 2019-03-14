@@ -5,14 +5,6 @@
   text-transform: uppercase;
   padding: 3rem 0 2rem 2rem;
 
-  @include respond(tab-land) {
-    height: 25vh;
-  }
-
-  @include respond(tab-port) {
-    height: 20vh;
-  }
-
   @include respond(phone) {
     font-size: 8rem;
   }
@@ -67,6 +59,7 @@
     @include respond(tab-port) {
       padding-top: 2.5rem;
       font-size: 5rem;
+      text-align: left;
     }
 
     @include respond(phone) {
